@@ -1,6 +1,6 @@
 <div class="h-24 bg-red-600 font-bold text-white">hi there</div>
-<%= form_with url: '/filter', method: :get, data: { controller: 'filter', action: 'filter#submit' } do |form| %>
-  <%= form.range_field :value, in: 0..100, data: { action: 'change->filter#submit' } %>
+<%= form_with url: staff_index_path, method: :get do |form| %>
+  <%= form.range_field :value, in: 0..100, data: {controller: "staff", action: "input->staff#change" } %>
 <% end %>
 
 <% @staff.each do |staff_member| %>
