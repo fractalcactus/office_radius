@@ -23,8 +23,8 @@
       "name": "Miss Hazel Satterfield",
       "role": "Human Quality Agent",
       "location": {
-        "latitude": -41.29778955146341,
-        "longitude": 174.72312133308046
+        "latitude": -42.29778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -32,8 +32,8 @@
       "name": "Shaina Rempel",
       "role": "Future Research Agent",
       "location": {
-        "latitude": -41.30710143139155,
-        "longitude": 174.75208649620285
+        "latitude": -42.29778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -41,8 +41,8 @@
       "name": "Kenton Barton IV",
       "role": "Dynamic Marketing Analyst",
       "location": {
-        "latitude": -41.291380038234614,
-        "longitude": 174.78800575670996
+        "latitude": -42.29778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -50,8 +50,8 @@
       "name": "Beaulah Berge",
       "role": "Chief Directives Engineer",
       "location": {
-        "latitude": -41.27179047291976,
-        "longitude": 174.72886197907593
+        "latitude": -42.29778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -59,8 +59,8 @@
       "name": "Ardith Stiedemann",
       "role": "Customer Research Executive",
       "location": {
-        "latitude": -41.34368528432246,
-        "longitude": 174.76174035763617
+        "latitude": -45.79778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -68,8 +68,8 @@
       "name": "Edmund Gusikowski",
       "role": "Principal Tactics Developer",
       "location": {
-        "latitude": -41.28383740463094,
-        "longitude": 174.77300478218476
+        "latitude": -45.79778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -77,8 +77,8 @@
       "name": "Rogelio Ryan",
       "role": "Principal Implementation Officer",
       "location": {
-        "latitude": -41.30297408966729,
-        "longitude": 174.77589175101804
+        "latitude": -45.79778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -86,8 +86,8 @@
       "name": "Alva Hills PhD",
       "role": "National Factors Planner",
       "location": {
-        "latitude": -41.252233434320175,
-        "longitude": 174.73444628405207
+        "latitude": -45.79778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -95,8 +95,8 @@
       "name": "Greg Nienow",
       "role": "Regional Research Representative",
       "location": {
-        "latitude": -41.306218310294256,
-        "longitude": 174.7428921162712
+        "latitude": -47.79778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -104,8 +104,8 @@
       "name": "Ricky Hoeger",
       "role": "Dynamic Web Agent",
       "location": {
-        "latitude": -41.31194930522149,
-        "longitude": 174.83410080688597
+        "latitude": -47.79778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -113,8 +113,8 @@
       "name": "Freeda Bogan",
       "role": "Product Integration Strategist",
       "location": {
-        "latitude": -41.29845329787395,
-        "longitude": 174.70792528465492
+        "latitude": -48.79778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -122,8 +122,8 @@
       "name": "Alejandrin Dietrich",
       "role": "Internal Optimization Strategist",
       "location": {
-        "latitude": -41.28631511560318,
-        "longitude": 174.77048701734748
+        "latitude": -48.79778955146341,
+        "longitude": 176.72312133308046
       }
     },
     {
@@ -131,8 +131,8 @@
       "name": "Daphnee Zemlak",
       "role": "Forward Brand Administrator",
       "location": {
-        "latitude": -41.27247128726977,
-        "longitude": 174.7351375584343
+        "latitude": -48.69778955146341,
+        "longitude": 179.72312133308046
       }
     },
     {
@@ -265,6 +265,87 @@
       "id": 29,
       "name": "Miss Aiyana Schamberger",
       "role": "Customer Usability Architect",
+      "location": {
+        "latitude": -41.268897832897466,
+        "longitude": 174.7525605490229
+      }
+    },
+    {
+      "id": 29,
+      "name": "Greg Tippon",
+      "role": "Mathematician",
+      "location": {
+        "latitude": -41.268897832897466,
+        "longitude": 174.7525605490229
+      }
+    },
+    {
+      "id": 29,
+      "name": "Brian O'Ryan",
+      "role": "Developer",
+      "location": {
+        "latitude": -41.268897832897466,
+        "longitude": 174.7525605490229
+      }
+    },
+    {
+      "id": 29,
+      "name": "Emma Stone",
+      "role": "Secretary",
+      "location": {
+        "latitude": -41.268897832897466,
+        "longitude": 174.7525605490229
+      }
+    },
+    {
+      "id": 29,
+      "name": "Herman Hesse",
+      "role": "Designer",
+      "location": {
+        "latitude": -41.268897832897466,
+        "longitude": 174.7525605490229
+      }
+    },
+    {
+      "id": 29,
+      "name": "Jim Jones",
+      "role": "Sales Lead",
+      "location": {
+        "latitude": -41.268897832897466,
+        "longitude": 174.7525605490229
+      }
+    },
+    {
+      "id": 29,
+      "name": "Emma Young",
+      "role": "Doctor",
+      "location": {
+        "latitude": -41.268897832897466,
+        "longitude": 174.7525605490229
+      }
+    },
+    {
+      "id": 29,
+      "name": "Peter Jones",
+      "role": "Architect",
+      "location": {
+        "latitude": -41.268897832897466,
+        "longitude": 174.7525605490229
+      }
+    },
+    {
+      "id": 29,
+      "name": "Anna Tohmson",
+      "role": "Developer",
+      "location": {
+        "latitude": -41.268897832897466,
+        "longitude": 174.7525605490229
+      }
+    },
+    {
+      "id": 29,
+      "name": "Eli Yudko",
+      "role": "AI Developer",
       "location": {
         "latitude": -41.268897832897466,
         "longitude": 174.7525605490229

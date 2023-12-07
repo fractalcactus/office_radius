@@ -3,11 +3,15 @@ import { Controller } from "@hotwired/stimulus";
 export default class extends Controller {
   static targets = ["form", "list"];
   connect() {
-    console.log("Range slider connected");
+    this.displayStaff(500);
   }
 
   change(event) {
     const max = event.target.value;
+    this.displayStaff(max);
+  }
+
+  displayStaff(max) {
     console.log("Range slider value changed to", max);
     // this.formTarget.submit();
     // make GET request to /staff/index with param of max

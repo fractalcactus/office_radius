@@ -1,1 +1,7 @@
-<p><%="radius: #{@max}"%></p>
+<h1 class="font-sans"><%="Staff within #{@max} km of the office"%></h1>
+
+<%# # TODO: style this like a nice card %>
+<% @staff.each do |staff_member| %>
+ <p class="bg-slate-200"><%="#{staff_member["name"]} , #{staff_member["role"]}"%></p>
+<% end %>
+
