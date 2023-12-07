@@ -1,14 +1,18 @@
 import { Controller } from "@hotwired/stimulus";
 
 export default class extends Controller {
-  static targets = ["form"];
+  static targets = ["form", "list"];
   connect() {
     console.log("Range slider connected");
   }
 
   change(event) {
-    console.log("Range slider value changed to", event.target.value);
-    // submit the parent form
-    console.log(this.formTarget);
+    const max = event.target.value;
+    console.log("Range slider value changed to", max);
+    // this.formTarget.submit();
+    // make GET request to /staff/index with param of max
+    fetch(`/staff/within_radius?max=${max}`)
+      .then((response) => response.text())
+      .then((html) => (this.listTarget.innerHTML = html));
   }
 }
