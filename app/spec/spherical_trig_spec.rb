@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative '../services/spherical_trig'
+require_relative "../services/spherical_trig"
 
-describe 'SphericalTrig' do
-  describe '::get_arc_length' do
-    it 'given the lat and long of two points in decimal degrees, returns the arc length' do
+describe "SphericalTrig" do
+  describe "::get_arc_length" do
+    it "given the lat and long of two points in decimal degrees, returns the arc length" do
       # identical points
       identical_result = SphericalTrig.get_arc_length(
         lat_1: 30.0,

@@ -201,8 +201,6 @@ GEM
     regexp_parser (2.8.3)
     reline (0.4.1)
       io-console (~> 0.5)
-    requestjs-rails (0.0.11)
-      railties (>= 6.1.0)
     rexml (3.2.6)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
@@ -237,6 +235,11 @@ GEM
     rubocop-performance (1.19.1)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
+    rubocop-rails (2.22.2)
+      activesupport (>= 4.2.0)
+      rack (>= 1.1)
+      rubocop (>= 1.33.0, < 2.0)
+      rubocop-ast (>= 1.30.0, < 2.0)
     rubocop-rspec (2.25.0)
       rubocop (~> 1.40)
       rubocop-capybara (~> 2.17)
@@ -291,10 +294,10 @@ DEPENDENCIES
   puma (>= 5.0)
   rails (~> 7.1.2)
   redis (>= 4.0.1)
-  requestjs-rails
   rspec (~> 3.12)
   rubocop (~> 1.57)
   rubocop-performance (~> 1.19)
+  rubocop-rails
   rubocop-rspec (~> 2.25)
   sprockets-rails
   sqlite3 (~> 1.4)
