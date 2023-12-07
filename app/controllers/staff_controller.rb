@@ -2,8 +2,7 @@
 
 require_relative "../services/process_staff"
 class StaffController < ApplicationController
-  def index
-  end
+  def index;end;
 
   def within_radius
     @max = params[:max].to_f || 500.0

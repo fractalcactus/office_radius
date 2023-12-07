@@ -1,5 +1,5 @@
 <div class="mx-40" data-controller="staff">
-  <%= form_with url: staff_index_path, method: :get, data: { staff_target: "form"} do |form| %>
+  <%= form_with url: staff_index_path do |form| %>
     <%= form.range_field :max, in: 0..1000, value: 500, data: { action: "input->staff#change" }, class: "w-full h-2 accent-slate-950 rounded-lg my-5" %>
   <% end %>
 
