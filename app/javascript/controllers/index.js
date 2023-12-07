@@ -4,7 +4,5 @@
 
 import { application } from "./application";
 
-import HelloController from "./hello_controller";
 import StaffController from "./staff_controller.js";
-application.register("hello", HelloController);
 application.register("staff", StaffController);
