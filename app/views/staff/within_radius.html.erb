@@ -1,8 +1,8 @@
-<div class="bg-yellow-100">
-  <h1 class="font-sans font-extralight text-4xl">Staff within <span class="font-normal"><%="#{@max.to_i} km"%></span> of the office</h1>
+<div class="flex justify-center flex-wrap w-full">
+  <h1 class="w-full font-sans font-extralight text-4xl text-center my-5">Staff within <span class="font-normal"><%="#{@max.to_i} km"%></span> of the office</h1>
   <div class="flex flex-wrap">
     <% @staff.each do |staff_member| %>
-    <div class="rounded shadow-sm border w-1/4 p-2 m-2">
+    <div class="rounded shadow-sm border w-100 p-2 m-2">
         <div class="font-bold">
           <%="#{staff_member["name"]}"%>
         </div>
