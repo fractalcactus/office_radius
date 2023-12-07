@@ -1,5 +1,4 @@
 require "json"
-require "pry"
 require_relative "spherical_trig"
 
 module ProcessStaff
