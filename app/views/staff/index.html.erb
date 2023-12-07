@@ -1,7 +1,8 @@
 <div class="h-24 bg-red-600 font-bold text-white">hi there</div>
-<%= form_with url: staff_index_path, method: :get do |form| %>
-  <%= form.range_field :value, in: 0..100, data: {controller: "staff", action: "input->staff#change" } %>
-<% end %>
+  <%= form_with url: staff_index_path, method: :get, data: { controller: "staff", staff_target: "form"} do |form| %>
+    <%= form.range_field :value, in: 0..100, data: { action: "input->staff#change" } %>
+  <% end %>
+
 
 <% @staff.each do |staff_member| %>
   <p><%="#{staff_member["name"]}"%></p>
