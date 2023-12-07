@@ -1,0 +1,40 @@
+{
+  "staff": [
+    {
+      "id": 0,
+      "name": "David",
+      "role": "Chief Metrics Architect",
+      "location": {
+        "latitude": 80,
+        "longitude": 80
+      }
+    },
+    {
+      "id": 1,
+      "name": "Bob",
+      "role": "Direct Metrics Facilitator",
+      "location": {
+        "latitude": -41.294,
+        "longitude": 174.77481621
+      }
+    },
+    {
+      "id": 2,
+      "name": "Anna",
+      "role": "Human Quality Agent",
+      "location": {
+        "latitude": -41.2920728,
+        "longitude": 174.7748162
+      }
+    },
+    {
+      "id": 3,
+      "name": "Carl",
+      "role": "Future Research Agent",
+      "location": {
+        "latitude": -41.395398,
+        "longitude": 174.77481621
+      }
+    }
+  ]
+}

@@ -2,6 +2,19 @@ source "https://rubygems.org"
 
 ruby "3.2.2"
 
+# testing
+gem "rspec", "~> 3.12"
+
+# linting syntax
+gem "rubocop", "~> 1.57"
+gem "rubocop-rspec", "~> 2.25"
+
+# linting performance
+gem "rubocop-performance", "~> 1.19"
+
+# debugging
+gem "pry", "~> 0.14.2"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.2"
 
